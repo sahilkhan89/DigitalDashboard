@@ -18,6 +18,6 @@ FROM openjdk:17-jdk-slim
 
 EXPOSE 9090
 
-COPY --from=build /path/to/your/target/digital_board-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /path/to/your/target/digital_board-0.0.1-SNAPSHOT.jar digital_board.jar
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "digital_board.jar"]
