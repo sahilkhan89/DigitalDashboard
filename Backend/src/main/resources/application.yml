@@ -9,7 +9,7 @@ cloudinary:
   api-secret: wJalgphAjGLYXpyhn4OK83NzDCY
 
 server:
-  port: 9090 
+  port: 8080 
 
 spring:
   datasource:
